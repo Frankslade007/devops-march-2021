@@ -1,1 +1,21 @@
 This is my first app
+en Microsoft-ASR_UA_9.40.0.0_Windows_GA_07Jan2021_Release.exe MobilityServiceInstaller.exe
+MobilityServiceInstaller.exe /q /x:C:\azure\Extracted
+
+cd C:\azure\Extracted
+
+UnifiedAgent.exe /Role "MS" /Silent
+
+cd C:\Program Files (x86)\Microsoft Azure Site Recovery\agent
+
+UnifiedAgentConfigurator.exe  /CSEndPoint 10.1.1.232 /PassphraseFilePath "C:\Users\Administrator\Desktop\azure passphrase.txt"
+
+n6190187
+0107052596
+
+8160735
+ 
+
+worked on ticket to create users for jenkins , logentries and bitbucket
+updating aws inventory list 
+
